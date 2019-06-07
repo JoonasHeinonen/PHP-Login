@@ -7,8 +7,15 @@
     <body>
         <header>
             <nav>
-                <div class="main-wrapper">
-                    <h1>HOMOJA! MEIDÄN KELLARISSA!?!<h1>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                </ul>
+                <div class="nav-login">
+                    <form>
+                        <input type="text" name="username" placeholder="Username/e-mail">
+                        <input type="password" name="password" placeholder="password">
+                        <button type="submit" name="submit">Login</button>
+                    </form>
                 </div>
             </nav>
         </header>
