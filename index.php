@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                </ul>
-                <div class="nav-login">
-                    <form>
-                        <input type="text" name="username" placeholder="Username/e-mail">
-                        <input type="password" name="password" placeholder="password">
-                        <button type="submit" name="submit">Login</button>
-                    </form>
-                </div>
-            </nav>
-        </header>
-        <section>
-        </section>
-    </body>
-</html>
+<?php
+    include_once 'header.php';
+?>
+<section class="main-container">
+    <div class="main-wrapper">
+        <h2>Home</h2>
+    </div>
+</section>
+<?php
+    include_once 'footer.php';
+?>
