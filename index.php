@@ -1,11 +1,10 @@
 <?php
     include_once 'header.php';
 ?>
-<section class="main-container">
-    <div class="main-wrapper">
-        <h2>Home</h2>
-    </div>
-</section>
+    <main>
+        <p>You are logged out!</p>
+        <p>You are logged in!</p>
+    </main>
 <?php
     include_once 'footer.php';
 ?>
